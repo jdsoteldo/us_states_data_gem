@@ -4005,6 +4005,8 @@ California:
     - "96150"
     - "96155"
     - "96161"
+  region: West
+  division: Pacific
 Colorado:
   abbreviation: CO
   counties:
@@ -4600,6 +4602,8 @@ Colorado:
     - "81655"
     - "81656"
     - "81657"
+  region: West
+  division: Mountain
 Connecticut:
   abbreviation: CT
   counties:
@@ -7149,6 +7153,8 @@ Hawaii:
     - "96859"
     - "96860"
     - "96863"
+  region: West
+  division: Pacific
 Idaho:
   abbreviation: ID
   counties:
@@ -7476,6 +7482,8 @@ Idaho:
     - "83873"
     - "83874"
     - "83876"
+  region: West
+  division: Mountain
 Illinois:
   abbreviation: IL
   counties:
@@ -18957,6 +18965,8 @@ Montana:
     - "59935"
     - "59936"
     - "59937"
+  region: West
+  division: Mountain
 Nebraska:
   abbreviation: NE
   counties:
@@ -19843,6 +19853,8 @@ Nevada:
     - "89834"
     - "89835"
     - "89883"
+  region: West
+  division: Mountain
 New Hampshire:
   abbreviation: NH
   counties:
@@ -21139,6 +21151,8 @@ New Mexico:
     - "88435"
     - "88436"
     - "88439"
+  region: West
+  division: Mountain
 New York:
   abbreviation: NY
   counties:
@@ -26918,6 +26932,8 @@ Oregon:
     - "97917"
     - "97918"
     - "97920"
+  region: West
+  division: Pacific
 Pennsylvania:
   abbreviation: PA
   counties:
@@ -33191,6 +33207,8 @@ Utah:
     - "84783"
     - "84784"
     - "84790"
+  region: West
+  division: Mountain
 Vermont:
   abbreviation: VT
   counties:
@@ -35128,6 +35146,8 @@ Washington:
     - "99401"
     - "99402"
     - "99403"
+  region: West
+  division: Pacific
 West Virginia:
   abbreviation: WV
   counties:
@@ -36789,7 +36809,6 @@ Wisconsin:
   region: Midwest
   division: East North Central
 Wyoming:
-
   abbreviation: WY
   counties:
     - Albany
@@ -36995,3 +37014,5 @@ Wyoming:
     - "83127"
     - "83128"
     - "83414"
+  region: West
+  division: Mountain
