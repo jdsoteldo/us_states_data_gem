@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.homepage      = "https://github.com/jdsoteldo/us_states_gem"
   spec.license       = "MIT"
 
-  spec.files         = Dir["lib/**/*.rb", "lib/us_states_data.rb"]
+  spec.files         = Dir["lib/**/*.rb", "lib/us_states_data.rb", "lib/us_states_data.yml"]
 
   spec.metadata["allowed_push_host"] = "https://rubygems.org"
 
