@@ -15,6 +15,14 @@ module UsStatesData
     STATES[state_name.capitalize]["zip_codes"]
   end
 
+  def self.state_information(state_name)
+    STATES[state_name.capitalize]
+  end
+
+  def self.state_abbreviation(state_name)
+    STATES[state_name.capitalize]["abbreviation"]
+  end
+
   def self.is_county_in_state?(county_name, state_name)
     state = STATES[state_name.capitalize]
     if state.nil?
