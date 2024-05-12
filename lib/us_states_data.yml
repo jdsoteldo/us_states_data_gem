@@ -4977,6 +4977,8 @@ Delaware:
     - "19977"
     - "19979"
     - "19980"
+  region: South
+  division: South Atlantic
 District of Columbia:
   abbreviation: DC
   counties:
@@ -5039,6 +5041,8 @@ District of Columbia:
     - "20565"
     - "20566"
     - "20591"
+  region: South
+  division: South Atlantic
 Florida:
   abbreviation: FL
   counties:
@@ -6121,6 +6125,8 @@ Florida:
     - "34994"
     - "34996"
     - "34997"
+  region: South
+  division: South Atlantic
 Georgia:
   abbreviation: GA
   counties:
@@ -7035,6 +7041,8 @@ Georgia:
     - "39885"
     - "39886"
     - "39897"
+  region: South
+  division: South Atlantic
 Hawaii:
   abbreviation: HI
   counties:
@@ -12671,6 +12679,8 @@ Kentucky:
     - "42782"
     - "42784"
     - "42788"
+  region: South
+  division: East South Central
 Louisiana:
   abbreviation: LA
   counties:
@@ -13278,6 +13288,8 @@ Louisiana:
     - "71485"
     - "71486"
     - "71497"
+  region: South
+  division: West South Central
 Maine:
   abbreviation: ME
   counties:
@@ -14230,6 +14242,8 @@ Maryland:
     - "21920"
     - "21921"
     - "21930"
+  region: South
+  division: South Atlantic
 Massachusetts:
   abbreviation: MA
   counties:
@@ -17357,6 +17371,8 @@ Mississippi:
     - "39772"
     - "39773"
     - "39776"
+  region: South
+  division: East South Central
 Missouri:
   abbreviation: MO
   counties:
@@ -23912,6 +23928,8 @@ North Carolina:
     - "28905"
     - "28906"
     - "28909"
+  region: South
+  division: South Atlantic
 North Dakota:
   abbreviation: ND
   counties:
@@ -26431,6 +26449,8 @@ Oklahoma:
     - "74964"
     - "74965"
     - "74966"
+  region: South
+  division: West South Central
 Oregon:
   abbreviation: OR
   counties:
@@ -29404,6 +29424,8 @@ South Carolina:
     - "29943"
     - "29944"
     - "29945"
+  region: South
+  division: South Atlantic
 South Dakota:
   abbreviation: SD
   counties:
@@ -30586,6 +30608,8 @@ Tennessee:
     - "38587"
     - "38588"
     - "38589"
+  region: South
+  division: East South Central
 Texas:
   abbreviation: TX
   counties:
@@ -32834,6 +32858,8 @@ Texas:
     - "79935"
     - "79936"
     - "79938"
+  region: South
+  division: West South Central
 Utah:
   abbreviation: UT
   counties: 
@@ -34452,6 +34478,8 @@ Virginia:
     - "24651"
     - "24656"
     - "24657"
+  region: South
+  division: South Atlantic
 Washington:
   abbreviation: WA
   counties:
@@ -35897,6 +35925,8 @@ West Virginia:
     - "26866"
     - "26884"
     - "26886"
+  region: South
+  division: South Atlantic
 Wisconsin:
   abbreviation: WI
   counties:
