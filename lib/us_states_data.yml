@@ -725,6 +725,8 @@ Alabama:
     - "36921"
     - "36922"
     - "36925"
+  region: South
+  division: East South Central
 Alaska:
   abbreviation: AK
   counties:
@@ -1003,6 +1005,8 @@ Alaska:
     - "99926"
     - "99927"
     - "99929"
+  region: West
+  division: Pacific
 Arizona:
   abbreviation: AZ
   counties:
@@ -1439,6 +1443,8 @@ Arizona:
     - "86545"
     - "86547"
     - "86556"
+  region: West
+  division: Mountain
 Arkansas:
   abbreviation: AR
   counties:
@@ -2133,6 +2139,8 @@ Arkansas:
     - "72956"
     - "72958"
     - "72959"
+  region: South
+  division: West South Central
 California:
   abbreviation: CA
   counties:
@@ -4892,6 +4900,8 @@ Connecticut:
     - "06905"
     - "06906"
     - "06907"
+  region: Northeast
+  division: New England
 Delaware:
   abbreviation: DE
   counties:
@@ -8960,6 +8970,8 @@ Illinois:
     - "62997"
     - "62998"
     - "62999"
+  region: Midwest
+  division: East North Central
 Indiana:
   abbreviation: IN
   counties:
@@ -9863,6 +9875,8 @@ Indiana:
     - "47994"
     - "47995"
     - "47997"
+  region: Midwest
+  division: East North Central
 Iowa:
   abbreviation: IA
   counties:
@@ -10936,6 +10950,8 @@ Iowa:
     - "52804"
     - "52806"
     - "52807"
+  region: Midwest
+  division: West North Central
 Kansas:
   abbreviation: KS
   counties:
@@ -11749,6 +11765,8 @@ Kansas:
     - "67952"
     - "67953"
     - "67954"
+  region: Midwest
+  division: West North Central
 Kentucky:
   abbreviation: KY
   counties:
@@ -13706,6 +13724,8 @@ Maine:
     - "04988"
     - "04989"
     - "04992"
+  region: Northeast
+  division: New England
 Maryland:
   abbreviation: MD
   counties:
@@ -14767,6 +14787,8 @@ Massachusetts:
     - "02780"
     - "02790"
     - "02791"
+  region: Northeast
+  division: New England
 Michigan:
   abbreviation: MI
   counties:
@@ -15846,6 +15868,8 @@ Michigan:
     - "49969"
     - "49970"
     - "49971"
+  region: Midwest
+  division: East North Central
 Minnesota:
   abbreviation: MN
   counties:
@@ -16818,6 +16842,8 @@ Minnesota:
     - "56761"
     - "56762"
     - "56763"
+  region: Midwest
+  division: West North Central
 Mississippi:
   abbreviation: MS
   counties:
@@ -18484,6 +18510,8 @@ Missouri:
     - "65809"
     - "65810"
     - "65897"
+  region: Midwest
+  division: West North Central
 Montana:
   abbreviation: MT
   counties:
@@ -19596,6 +19624,8 @@ Nebraska:
     - "69365"
     - "69366"
     - "69367"
+  region: Midwest
+  division: West North Central
 Nevada:
   abbreviation: NV
   counties:
@@ -20058,6 +20088,8 @@ New Hampshire:
     - "03890"
     - "03894"
     - "03897"
+  region: Northeast
+  division: New England
 New Jersey:
   abbreviation: NJ
   counties:
@@ -20681,6 +20713,8 @@ New Jersey:
     - "08901"
     - "08902"
     - "08904"
+  region: Northeast
+  division: Middle Atlantic
 New Mexico:
   abbreviation: NM
   counties:
@@ -22919,6 +22953,8 @@ New York:
     - "14903"
     - "14904"
     - "14905"
+  region: Northeast
+  division: Middle Atlantic
 North Carolina:
   abbreviation: NC
   counties:
@@ -24321,6 +24357,8 @@ North Dakota:
     - "58853"
     - "58854"
     - "58856"
+  region: Midwest
+  division: West North Central
 Ohio:
   abbreviation: OH
   counties:
@@ -25646,6 +25684,8 @@ Ohio:
     - "45897"
     - "45898"
     - "45899"
+  region: Midwest
+  division: East North Central
 Oklahoma:
   abbreviation: OK
   counties:
@@ -28762,6 +28802,8 @@ Pennsylvania:
     - "19609"
     - "19610"
     - "19611"
+  region: Northeast
+  division: Middle Atlantic
 Rhode Island:
   abbreviation: RI
   counties:
@@ -28886,6 +28928,8 @@ Rhode Island:
     - "02919"
     - "02920"
     - "02921"
+  region: Northeast
+  division: New England
 South Carolina:
   abbreviation: SC
   counties:
@@ -29805,6 +29849,8 @@ South Dakota:
     - "57793"
     - "57794"
     - "57799"
+  region: Midwest
+  division: West North Central
 Tennessee:
   abbreviation: TN
   counties:
@@ -33402,6 +33448,8 @@ Vermont:
     - "05905"
     - "05906"
     - "05907"
+  region: Northeast
+  division: New England
 Virginia:
   abbreviation: VA
   counties:
@@ -36708,7 +36756,10 @@ Wisconsin:
     - "54984"
     - "54985"
     - "54986"
+  region: Midwest
+  division: East North Central
 Wyoming:
+
   abbreviation: WY
   counties:
     - Albany
