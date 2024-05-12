@@ -3,6 +3,10 @@ require 'yaml'
 module UsStatesData
   STATES = YAML.load_file(File.join(__dir__, 'us_states_data.yml'))
 
+  def self.states
+    STATES.keys
+  end
+
   def self.counties_for_state(state_name)
     STATES[state_name]["counties"]
   end
