@@ -15,15 +15,14 @@ module UsStatesData
     STATES[state_name.capitalize]["zip_codes"]
   end
 
-  def self.is_county_in_state?(state_name, county_name)
+  def self.is_county_in_state?(county_name, state_name)
     state = STATES[state_name.capitalize]
     if state.nil?
       raise ArgumentError, "State '#{state_name}' not found."
     elsif state["counties"].map(&:downcase).include?(county_name.downcase)
-      return true
+      return [true, 200]
     else
-      raise ArgumentError, "County '#{county_name}' not found in state '#{state_name}'."
-      return false
+      return [false, 404,  "County '#{county_name}' not found in state '#{state_name}'."]
     end
   end
 
@@ -36,10 +35,9 @@ module UsStatesData
     if !valid_zip_code?(zip_code)
       raise ArgumentError, "Invalid zip code format."
     elsif STATES[state_name.capitalize]["zip_codes"].include?(zip_code.to_s)
-      return true
+      return [true, 200]
     else
-      raise ArgumentError, "Zip code '#{zip_code}' not found in state '#{state_name}'."
-      return false
+      return [false, 404, "Zip code '#{zip_code}' not found in state '#{state_name}'."]
     end
   end
 
