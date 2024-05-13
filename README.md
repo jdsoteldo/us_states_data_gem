@@ -151,4 +151,4 @@ ArgumentError: Invalid zip code format.
 Contributions are welcome! If you'd like to contribute to UsStatesData, please fork the repository, make your changes, and submit a pull request. Before submitting a pull request, make sure to run the tests using bundle exec rspec and ensure that your changes pass all tests.
 
 License
-The gem is available as open source under the terms of the [MIT License](https://github.com/git/git-scm.com/blob/main/MIT-LICENSE.txt).
+The gem is available as open source under the terms of the [MIT License](https://github.com/jdsoteldo/us_states_data_gem/blob/main/LICENSE.txt).
