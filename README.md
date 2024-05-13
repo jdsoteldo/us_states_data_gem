@@ -16,17 +16,17 @@ After bundling add this line to your ruby file
 `require 'us_states_data'`
 
 List of methods:
-- Retrieve a list of states
-- Retrieve state's information (abbreviation, counties, region, division, and, zip codes)
-- Retrieve state abbreviation
-- Retrieve a list of counties for a specific state
-- Retrieve a list of zipcodes for a specific state
-- Sort states by region
-- Sort states by division
-- Retrieve state from specific region
-- Retrieve state from division
-- Check for a county within a specific state
-- Check for a zipcode within a specific state
+- [Retrieve a list of states](#retrieve-a-list-of-states)
+- [Retrieve state information (abbreviation, counties, region, division, and, zip codes)](#retrieve-state-information)
+- [Retrieve state abbreviation](#retrieve-state-abbreviation)
+- [Retrieve a list of counties for a specific state](#retrieve-counties-for-a-specific-state)
+- [Retrieve a list of zipcodes for a specific state](#retrieve-zip-codes-for-a-specific-state)
+- [Sort states by region](#sort-states-by-region)
+- [Sort states by division](#sort-states-by-division)
+- [Retrieve states from specific region](#fetch-specific-region)
+- [Retrieve states from division](#fetch-specific-division)
+- [Check for a county within a specific state](#check-if-a-county-exists-in-a-state)
+- [Check for a zipcode within a specific state](#check-if-a-zip-code-exists-in-a-state)
 
   
 ### Retrieve a list of states
@@ -36,7 +36,7 @@ puts "States: #{states}"
 ```
 This will return an array of every state. 
 
-### Retrieve state's information
+### Retrieve state information
 ```
 ohio = UsStatesData.state_information('Ohio')
 ```
@@ -76,6 +76,7 @@ UsStatesData.sort_by_division
 
 The previous two methods don't require any arguments and will just return an array with the states sorted by the region i.e: South, Midwest. And by the division, i.e: New England, Mountain.
 
+### Fetch specific region
 If you would like to fetch the states from a specific region, you can use the following method:
 ```
 UsStatesData.states_from_region("South")
@@ -88,6 +89,8 @@ UsStatesData.states_from_region("South")
 ```
 In the scenario of using a non-existing region, you will trigger the following error: `Region 'foo' doesn't exist. Available regions are: South, West, Northeast, Midwest`
 
+
+### Fetch specific division
 The usage for sorting by division is the same as above;
 ```
 UsStatesData.states_from_division("New England")
